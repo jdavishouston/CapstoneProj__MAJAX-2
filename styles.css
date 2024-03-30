@@ -1,1 +1,160 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px;
+    background-color: #fff;
+    list-style: none;
+}
+nav ul li {
+    margin: 0 10px;
+    text-decoration: none;
+    list-style: none;
+}
 
+.blm {
+    position: relative; 
+    width: 100%; 
+    height: 500px; 
+}
+
+.fist img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+}
+
+.arrow-button {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4169e1;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .arrow-button span {
+    margin-right: 10px;
+  }
+  
+  .arrow-button i {
+    font-size: 16px;
+  }
+  
+  .arrow-button:hover {
+    background-color: #2980b9;
+  }
+
+  .video{
+    text-align: center;
+  }
+  
+
+.get-data{
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    margin: 20px 0; 
+}
+
+.CTA{
+  display: flex; 
+  justify-content: space-around; 
+  align-items: center; 
+  margin: 50px 0; 
+}
+
+.CTA img{
+  width: 100%;
+}
+
+.get-data h1{
+    font-size: 3rem; 
+    margin: 20px; 
+}
+
+.get-data p{
+    font-size: 1.5rem; 
+    margin: 20px; 
+}
+
+.get-data button{   
+    margin: 20px ;
+    font-size: 1rem; 
+}
+
+
+.get-data img{
+    width: 400px; 
+    height: 400px; 
+    margin: 20px
+    
+}
+
+.hero-txt{
+    position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);  
+  color: white; 
+  font-size: 4rem;
+  text-align: center; 
+}
+
+p {
+    margin: 20px 0; 
+    font-size: 1.2rem; 
+}
+
+.section-heading {
+    text-align: center; 
+    margin: 20px 0; 
+    font-size: 3rem;
+
+}
+
+.vl {
+  border-left: 8px solid rgb(128, 59, 238);
+  height: 300px;
+}
+
+
+.card-container {
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: space-around; 
+  margin: 0 auto; 
+  width: 100%; 
+}
+
+.card {
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  width: 30%; 
+}
+
+.fight {
+  text-align: center;
+  font-size: 2rem;
+  width: 30%; 
+
+}
+
+
+.card img {
+  width: 100%; 
+  height: 150px; 
+  object-fit: cover; 
+}

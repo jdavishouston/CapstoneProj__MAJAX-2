@@ -1,5 +1,5 @@
 body {
-  background-color: pink;
+  background-color: hotpink;
 }
 
 .header {
@@ -8,7 +8,7 @@ body {
   left: 0;
   width: 98%;
   padding: 15px;
-  background: pink;
+  background: hotpink;
   display: flex;
   justify-content: space-between;
   align-items: center;
